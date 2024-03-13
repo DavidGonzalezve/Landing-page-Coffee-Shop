@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color: #996849;
+}
+
+main{
+    background-color: black;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    align-items: center;
+    width: 60rem;  
+    margin: auto;
+    margin-top: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 20px;
+   
+}
+
+.box-cup-coffe{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+
+.box-title-img{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+
+.title-slogan{
+    margin-top: 10vh;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.title-slogan h1{
+    font-size: 70px;
+}
+
+
+
+
+
+.box-link-order{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.box-link-order a{
+    margin-right: 2rem;
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(165, 44, 44);
+    border-radius: 10px;
+    background-color: #e9a787c5;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 5px 10px black;
+    box-shadow: 0px 1px 10px rgb(255, 230, 4);
+}
+
+.title-slogan p{
+    font-size: 20px;
+    margin-top: 25px;
+    width: 70vh;   
+}
+
+
+.box-logo-contact img{
+    filter: invert(1);
+    height: 30px;
+}
+
+.box-cup-coffe div img{
+    width: 600px;
+    margin-right: 5vh;
+    margin-bottom: 10vh;
+}
+
+.box-nav{
+    width: 30rem;
+    display: flex;
+    justify-content: center;  
+}
+
+.box-nav a{
+    color: white; 
+    margin-right: 20PX;
+    text-decoration: none; 
+}
